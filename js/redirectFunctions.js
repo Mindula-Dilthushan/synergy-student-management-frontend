@@ -1,7 +1,7 @@
-import {linkSignIn} from '../config/configProd';
+import goToSignIn from '../config/configEnvironment'
 
 function redirectToSignIn() {
   setTimeout(function () {
-    linkSignIn()
+    goToSignIn()
   }, 1000);
 }
