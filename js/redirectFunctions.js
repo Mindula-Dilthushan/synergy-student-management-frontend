@@ -4,7 +4,7 @@ function goToIndex() {
 
 function redirectToSignIn() {
   setTimeout(function () {
-    window.location.href = "../pages/signInPage.html";
+    window.location.href = "pages/signInPage.html";
   }, 1000);
 }
 
