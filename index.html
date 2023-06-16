@@ -19,14 +19,18 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body onload="redirectToSignIn()">
+<body>
 
 <div class="container w100 h100 bgMain1">
   <h1 class="color-white Open-sans-Regular"> Welcome Synergy Student Management !</h1>
 </div>
 
+<script>
+  window.onload = function () {
+    redirectToSignIn()
+  };
+</script>
 <script src="js/main.js"></script>
-
+<script src="js/redirectFunctions.js"></script>
 </body>
-
 </html>
