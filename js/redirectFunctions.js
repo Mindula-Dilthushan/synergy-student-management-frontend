@@ -1,7 +1,5 @@
-import goToSignIn from '../config/configEnvironment'
-
 function redirectToSignIn() {
   setTimeout(function () {
-    goToSignIn()
+    window.location.href = 'pages/signInPage.html';
   }, 1000);
 }
